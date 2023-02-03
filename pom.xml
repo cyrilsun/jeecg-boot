@@ -65,7 +65,8 @@
         <module>jeecg-boot-base-core</module>
         <module>jeecg-module-demo</module>
         <module>jeecg-module-system</module>
-	</modules>
+        <module>jeecg-module-biz</module>
+    </modules>
 
 	<repositories>
 		<repository>
@@ -393,7 +394,7 @@
 			<url>http://maven.jeecg.com:8090/nexus/content/repositories/snapshots/</url>
 		</snapshotRepository>
 	</distributionManagement>
-	
+
     <!-- 环境 -->
     <profiles>
         <!-- 开发 -->

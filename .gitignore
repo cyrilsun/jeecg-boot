@@ -9,3 +9,5 @@ rebel.xml
 
 ## front
 **/*.lock
+
+*.DS_Store
