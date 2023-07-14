@@ -1,4 +1,13 @@
+### 构建jar
+maven-->Profiles-->prod
+maven-->JEECGBOOT3.4.4-->Lifecycle-->install
 
+### 启动
+nohup java -jar jeecg-system-start-3.4.4.jar >catalina.out 2>&1 &
+
+### 关掉项目：
+ps -ef|grep java
+kill 进程号
 
 ![JEECG](https://jeecgos.oss-cn-beijing.aliyuncs.com/files/logov3.png "JeecgBoot低代码开发平台")
 

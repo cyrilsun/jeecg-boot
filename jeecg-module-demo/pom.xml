@@ -16,6 +16,11 @@
             <groupId>org.jeecgframework.boot</groupId>
             <artifactId>jeecg-boot-base-core</artifactId>
         </dependency>
+        <dependency>
+            <groupId>com.alibaba.da.coin</groupId>
+            <artifactId>semantic-execute-meta</artifactId>
+            <version>1.1.18-REALEASE</version>
+        </dependency>
     </dependencies>
 
 </project>
